@@ -72,20 +72,20 @@
     <table id="PUTSPEAKERNAMEHERE">
         <tr>
             <td class="date" rowspan="3">
-                9:30am
+                09:30am
             </td>
             <td class="title">
-                Foundation Models in Biology, from Histo-pathology to Genomics
+                From Diffusion Models to Schrödinger Bridges
             </td>
         </tr>
         <tr>
             <td class="speaker">
-                <a target="_blank" href="https://jpvert.github.io/">Jean-Philippe Vert</a> (Owkin)
+                <a target="_blank" href="https://vdeborto.github.io/">Valentin De Bortoli</a> (Google DeepMind (on leave CNRS))
             </td>
         </tr>
         <tr>
             <td class="abstract">
-                Large self-supervised foundation models have boosted the capabilities of AI models in natural language processing and computer vision. Can they also boost our understanding of biology and help us improve diagnosis and find new treatments for diseases like cancer? In this talk I will present our efforts to train foundation models for histopathology images of tissues, and to connect visual observations to the underlying genomics of the cells, paving the way to biomedical innovation in diagnosis and precision medicine.
+                Diffusion models have revolutionized generative modeling. Conceptually, these methods define a transport mechanism from a noise distribution to a data distribution. Recent advancements have extended this framework to define transport maps between arbitrary distributions, significantly expanding the potential for unpaired data translation. However, existing methods often fail to approximate optimal transport maps, which are theoretically known to possess advantageous properties. In this talk, we will show how one can modify current methodologies to compute Schrödinger bridges—an entropy-regularized variant of dynamic optimal transport. We will demonstrate this methodology on a variety of unpaired data translation tasks.
             </td>
         </tr>
     </table>
@@ -96,17 +96,17 @@
                 10:10am
             </td>
             <td class="title">
-                A Primer on Physics-informed Machine Learning
+                TBD 
             </td>
         </tr>
         <tr>
             <td class="speaker">
-                <a target="_blank" href="https://perso.lpsm.paris/~biau/">Gérard Biau</a> (Sorbonne Université)
+                <a target="_blank" href="https://www.linkedin.com/in/thomas-pierrot-120a43128/">Thomas Pierrot</a> (InstaDeep)
             </td>
         </tr>
         <tr>
             <td class="abstract">
-                Physics-informed machine learning typically integrates physical priors into the learning process by minimizing a loss function that includes both a data-driven term and a partial differential equation (PDE) regularization. Building on the formulation of the problem as a kernel regression task, we use Fourier methods to approximate the associated kernel, and propose a tractable estimator that minimizes the physics-informed risk function. We refer to this approach as physics-informed kernel learning (PIKL). This framework provides theoretical guarantees, enabling the quantification of the physical prior’s impact on convergence speed. We demonstrate the numerical performance of the PIKL estimator through simulations, both in the context of hybrid modeling and in solving PDEs. Additionally, we identify cases where PIKL surpasses traditional PDE solvers, particularly in scenarios with noisy boundary conditions. Joint work with Francis Bach (Inria, ENS), Claire Boyer (Université Paris-Saclay), and Nathan Doumèche (Sorbonne Université, EDF R&D). 
+                TBD
             </td>
         </tr>
     </table>
@@ -126,11 +126,54 @@
             </td>
         </tr>
     </table>
-    
+
     <table id="PUTSPEAKERNAMEHERE">
         <tr>
             <td class="date" rowspan="3">
                 11:00am
+            </td>
+            <td class="title">
+                Towards the Alignment of Geometric and Text Latent Spaces
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                <a target="_blank" href="https://www.lix.polytechnique.fr/~maks/">Maks Ovsjanikov</a> (Google DeepMind & École Polytechnique)
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                Recent works have shown that, when trained at scale, uni-modal 2D vision and text encoders converge to learned features that share remarkable structural properties, despite arising from different representations. However, the role of 3D encoders with respect to other modalities remains unexplored. Furthermore, existing 3D foundation models that leverage large datasets are typically trained with explicit alignment objectives with respect to frozen encoders from other representations. In this talk I will discuss some results on the alignment of representations obtained from uni-modal 3D encoders compared to text-based feature spaces. Specifically, I will show that it is possible to extract subspaces of the learned feature spaces that have common structure between geometry and text. This alignment also leads to improvement in downstream tasks, such as zero shot retrieval. Overall, this work helps to highlight both the shared and unique properties of 3D data compared to other representations.
+            </td>
+        </tr>
+    </table>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="date" rowspan="3">
+                11:40am
+            </td>
+            <td class="title">
+                A Primer on Physics-informed Machine Learning
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                <a target="_blank" href="https://perso.lpsm.paris/~biau/">Gérard Biau</a> (Sorbonne University)
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                Physics-informed machine learning typically integrates physical priors into the learning process by minimizing a loss function that includes both a data-driven term and a partial differential equation (PDE) regularization. Building on the formulation of the problem as a kernel regression task, we use Fourier methods to approximate the associated kernel, and propose a tractable estimator that minimizes the physics-informed risk function. We refer to this approach as physics-informed kernel learning (PIKL). This framework provides theoretical guarantees, enabling the quantification of the physical prior’s impact on convergence speed. We demonstrate the numerical performance of the PIKL estimator through simulations, both in the context of hybrid modeling and in solving PDEs. Additionally, we identify cases where PIKL surpasses traditional PDE solvers, particularly in scenarios with noisy boundary conditions. Joint work with Francis Bach (Inria, ENS), Claire Boyer (Université Paris-Saclay), and Nathan Doumèche (Sorbonne Université, EDF R&D). 
+            </td>
+        </tr>
+    </table>
+
+    
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="date" rowspan="3">
+                12:20am
             </td>
             <td class="title">
                 GFlowNets: A Novel Framework for Diverse Generation in Combinatorial and Continuous Spaces
@@ -148,31 +191,10 @@
         </tr>
     </table>
 
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                11:40am
-            </td>
-            <td class="title">
-                From Diffusion Models to Schrödinger Bridges
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                <a target="_blank" href="https://vdeborto.github.io/">Valentin De Bortoli</a> (Google DeepMind)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Diffusion models have revolutionized generative modeling. Conceptually, these methods define a transport mechanism from a noise distribution to a data distribution. Recent advancements have extended this framework to define transport maps between arbitrary distributions, significantly expanding the potential for unpaired data translation. However, existing methods often fail to approximate optimal transport maps, which are theoretically known to possess advantageous properties. In this talk, we will show how one can modify current methodologies to compute Schrödinger bridges—an entropy-regularized variant of dynamic optimal transport. We will demonstrate this methodology on a variety of unpaired data translation tasks.
-            </td>
-        </tr>
-    </table>
-
     <table>
         <tr>
             <td class="date" rowspan="2">
-                12:20pm
+                13:10pm
             </td>
             <td class="title-special">
                 Lunch
@@ -188,107 +210,7 @@
     <table id="PUTSPEAKERNAMEHERE">
         <tr>
             <td class="date" rowspan="3">
-                13:30pm
-            </td>
-            <td class="title">
-                Causal Representation Learning and Generative AI
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                <a target="_blank" href="https://mbzuai.ac.ae/study/faculty/kun-zhang/">Kun Zhang</a> (MBZUAI)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Causality is a fundamental notion in science, engineering, and even in machine learning. Uncovering the causal process behind observed data can naturally help answer 'why' and 'how' questions, inform optimal decisions, and achieve adaptive prediction. In many scenarios, observed variables (such as image pixels and questionnaire results) are often reflections of the underlying causal variables rather than being causal variables themselves. Causal representation learning aims to reveal the underlying hidden causal variables and their relations. In this talk, we show how the modularity property of causal systems makes it possible to recover the underlying causal representations from observational data with identifiability guarantees: under appropriate assumptions, the learned representations are consistent with the underlying causal process. We demonstrate how identifiable causal representation learning can naturally benefit generative AI, with image generation, image editing, and text generation as particular examples.
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                14:10pm
-            </td>
-            <td class="title">
-                Redefining AI Reasoning: From Self-Guided Exploration to Causal Loops, and Transformer-GNN Fusion
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                <a target="_blank" href="https://mbzuai.ac.ae/study/faculty/martin-takac/">Martin Takáč</a> (MBZUAI)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                In this talk, we explore three intertwined directions that collectively redefine how AI systems reason about complex tasks. First, we introduce Self-Guided Exploration (SGE), a prompting strategy that enables Large Language Models (LLMs) to autonomously generate multiple “thought trajectories” for solving combinatorial problems. Through iterative decomposition and refinement, SGE delivers significant performance gains on NP-hard tasks—showcasing LLMs’ untapped potential in reasoning, logistics and resource management problems. Next, we delve into the Self-Referencing Causal Cycle (ReCall), a mechanism that sheds new light on LLMs’ ability to recall prior context from future tokens. Contrary to the common belief that unidirectional token generation fundamentally restricts memory, ReCall illustrates how “cycle tokens” create loops in the training data, enabling models to overcome the notorious “reversal curse.” Finally, we present a Transformer-GNN fusion architecture that addresses Transformers’ limitations in processing graph-structured data. 
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                14:50pm
-            </td>
-            <td class="title">
-                Variational Diffusion Posterior Sampling with Midpoint Guidance 
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                <a target="_blank" href="https://yazidjanati.github.io/">Yazid Janati</a> (École Polytechnique)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Diffusion models have recently shown considerable potential in solving Bayesian inverse problems when used as priors. However, sampling from the resulting denoising posterior distributions remains a challenge as it involves intractable terms. To tackle this issue, state-of-the-art approaches formulate the problem as that of sampling from a surrogate diffusion model targeting the posterior and decompose its scores into two terms: the prior score and an intractable guidance term. While the former is replaced by the pre-trained score of the considered diffusion model, the guidance term has to be estimated. In this paper, we propose a novel approach that utilises a decomposition of the transitions which, in contrast to previous methods, allows a trade-off between the complexity of the intractable guidance term and that of the prior transitions. We also show how the proposed algorithm can be extended to handle the sampling of arbitrary unnormalised densities. We validate the proposed approach through extensive experiments on linear and nonlinear inverse problems, including challenging cases with latent diffusion models as priors.
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                15:10pm
-            </td>
-            <td class="title">
-                Demonstration-Regularized RL and RLHF
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                <a target="_blank" href="https://d-tiapkin.github.io/">Daniil Tiapkin</a> (École Polytechnique)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Incorporating expert demonstrations has empirically helped to improve the sample efficiency of reinforcement learning (RL). This paper quantifies theoretically to what extent this extra information reduces RL's sample complexity, such as supervised fine-tuning data in the reinforcement learning from human feedback (RLHF) pipeline. In particular, we study the demonstration-regularized reinforcement learning that leverages the expert demonstrations by KL-regularization for a policy learned by behavior cloning. Our findings reveal that using N expert demonstrations enables the identification of an optimal policy at a sample complexity of order O(Poly(dim)/(ε^2 N)) in finite and linear MDPs, where ε is the target precision and dim is a problem dimensionality: number. Finally, we establish that demonstration-regularized methods are provably efficient for reinforcement learning from human feedback (RLHF). In this respect, we provide theoretical evidence showing the benefits of KL-regularization for RLHF in tabular and linear MDPs. Interestingly, we avoid pessimism injection by employing computationally feasible regularization to handle reward estimation uncertainty, thus setting our approach apart from the prior works.
-            </td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                14:50pm
-            </td>
-            <td class="title-special">
-                Coffee &amp; Tea Break
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                <!-- Kept for Spacing -->
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                15:00pm
+                14:00pm
             </td>
             <td class="title">
                 What's not an Autoregressive LLM?
@@ -309,20 +231,99 @@
     <table id="PUTSPEAKERNAMEHERE">
         <tr>
             <td class="date" rowspan="3">
-                16:20pm
+                14:40pm
             </td>
             <td class="title">
-                TBD
+                Causal Representation Learning and Generative AI
             </td>
         </tr>
         <tr>
             <td class="speaker">
-                <a target="_blank" href="#">TBD</a> (TBD)
+                <a target="_blank" href="https://mbzuai.ac.ae/study/faculty/kun-zhang/">Kun Zhang</a> (MBZUAI)
             </td>
         </tr>
         <tr>
             <td class="abstract">
-                TBD
+                Causality is a fundamental notion in science, engineering, and even in machine learning. Uncovering the causal process behind observed data can naturally help answer 'why' and 'how' questions, inform optimal decisions, and achieve adaptive prediction. In many scenarios, observed variables (such as image pixels and questionnaire results) are often reflections of the underlying causal variables rather than being causal variables themselves. Causal representation learning aims to reveal the underlying hidden causal variables and their relations. In this talk, we show how the modularity property of causal systems makes it possible to recover the underlying causal representations from observational data with identifiability guarantees: under appropriate assumptions, the learned representations are consistent with the underlying causal process. We demonstrate how identifiable causal representation learning can naturally benefit generative AI, with image generation, image editing, and text generation as particular examples.
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td class="date" rowspan="2">
+                15:20pm
+            </td>
+            <td class="title-special">
+                Coffee &amp; Tea Break
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                <!-- Kept for Spacing -->
+            </td>
+        </tr>
+    </table>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="date" rowspan="3">
+                15:30pm
+            </td>
+            <td class="title">
+                Factuality Challenges in the Era of Large Language Models: Can we Keep LLMs Safe and Factual? 
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                <a target="_blank" href="https://mbzuai.ac.ae/study/faculty/preslav-nakov/">Preslav Nakov</a> (MBZUAI)
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                We will discuss the risks, the challenges, and the opportunities that Large Language Models (LLMs) bring regarding factuality. We will then delve into our recent work on using LLMs for fact-checking, on detecting machine-generated text, and on fighting the ongoing misinformation pollution with LLMs. We will also discuss work on safeguarding LLMs, and the safety mechanisms we incorporated in Jais-chat, the world's best open Arabic-centric foundation and instruction-tuned LLM, based on our Do-Not-Answer dataset. Finally, we will present a number of LLM fact-checking tools recently developed at MBZUAI: (i) LM-Polygraph, a tool to predict an LLM's uncertainty in its output using cheap and fast uncertainty quantification techniques, (ii) Factcheck-Bench, a fine-grained evaluation benchmark and framework for fact-checking the output of LLMs, (iii) Loki, an open-source tool for fact-checking the output of LLMs, developed based on Factcheck-Bench and optimized for speed and quality, (iv) OpenFactCheck, a framework for fact-checking LLM output, for building customized fact-checking systems, and for benchmarking LLMs for factuality, and (v) LLM-DetectAIve, a tool for machine-generated text detection.
+            </td>
+        </tr>
+    </table>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="date" rowspan="3">
+                15:50pm
+            </td>
+            <td class="title">
+                Variational Diffusion Posterior Sampling with Midpoint Guidance 
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                <a target="_blank" href="https://yazidjanati.github.io/">Yazid Janati</a> (FX Conseil)
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                Diffusion models have recently shown considerable potential in solving Bayesian inverse problems when used as priors. However, sampling from the resulting denoising posterior distributions remains a challenge as it involves intractable terms. To tackle this issue, state-of-the-art approaches formulate the problem as that of sampling from a surrogate diffusion model targeting the posterior and decompose its scores into two terms: the prior score and an intractable guidance term. While the former is replaced by the pre-trained score of the considered diffusion model, the guidance term has to be estimated. In this paper, we propose a novel approach that utilises a decomposition of the transitions which, in contrast to previous methods, allows a trade-off between the complexity of the intractable guidance term and that of the prior transitions. We also show how the proposed algorithm can be extended to handle the sampling of arbitrary unnormalised densities. We validate the proposed approach through extensive experiments on linear and nonlinear inverse problems, including challenging cases with latent diffusion models as priors.
+            </td>
+        </tr>
+    </table>
+
+    <table id="PUTSPEAKERNAMEHERE">
+        <tr>
+            <td class="date" rowspan="3">
+                16:10pm
+            </td>
+            <td class="title">
+                Demonstration-Regularized RL and RLHF
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                <a target="_blank" href="https://d-tiapkin.github.io/">Daniil Tiapkin</a> (École Polytechnique)
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                Incorporating expert demonstrations has empirically helped to improve the sample efficiency of reinforcement learning (RL). This paper quantifies theoretically to what extent this extra information reduces RL's sample complexity, such as supervised fine-tuning data in the reinforcement learning from human feedback (RLHF) pipeline. In particular, we study the demonstration-regularized reinforcement learning that leverages the expert demonstrations by KL-regularization for a policy learned by behavior cloning. Our findings reveal that using N expert demonstrations enables the identification of an optimal policy at a sample complexity of order O(Poly(dim)/(ε^2 N)) in finite and linear MDPs, where ε is the target precision and dim is a problem dimensionality: number. Finally, we establish that demonstration-regularized methods are provably efficient for reinforcement learning from human feedback (RLHF). In this respect, we provide theoretical evidence showing the benefits of KL-regularization for RLHF in tabular and linear MDPs. Interestingly, we avoid pessimism injection by employing computationally feasible regularization to handle reward estimation uncertainty, thus setting our approach apart from the prior works.
             </td>
         </tr>
     </table>
